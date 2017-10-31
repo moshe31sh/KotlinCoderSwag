@@ -1,7 +1,7 @@
-package com.example.moshe.coderswag
+package com.example.moshe.coderswag.controller
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.moshe.coderswag.R
 
 class MainActivity : BaseActivity() {
 

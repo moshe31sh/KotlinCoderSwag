@@ -1,4 +1,4 @@
-package com.example.moshe.coderswag
+package com.example.moshe.coderswag.controller
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
