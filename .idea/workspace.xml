@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5286b331-96b3-4332-b20b-e6ca60880ddf" name="Default" comment="add drawbles">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/moshe/coderswag/services/DataService.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -2433,7 +2431,21 @@
       <option name="project" value="LOCAL" />
       <updated>1509457331156</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add drawables">
+      <created>1509457401455</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1509457401455</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create data object">
+      <created>1509457418527</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1509457418527</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2477,7 +2489,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create data model" />
     <MESSAGE value="add logic to  data model" />
-    <option name="LAST_COMMIT_MESSAGE" value="add logic to  data model" />
+    <MESSAGE value="add drawables" />
+    <MESSAGE value="create data object" />
+    <option name="LAST_COMMIT_MESSAGE" value="create data object" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
