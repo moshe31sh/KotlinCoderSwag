@@ -12,8 +12,10 @@ import android.support.v7.app.AppCompatActivity
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(getLayout())
+        initView()
     }
 
     abstract fun getLayout() : Int
 
+    abstract fun initView()
 }
