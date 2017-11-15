@@ -20,13 +20,10 @@ class CategoryRecycleAdapter(private val context: Context, private val categorie
         holder?.bindCategory(categories[position], context)
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): Holder {
-        return Holder(LayoutInflater.from(context).inflate(R.layout.category_list_row, parent, false))
-    }
+    override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): Holder =
+            Holder(LayoutInflater.from(context).inflate(R.layout.category_list_row, parent, false))
 
-    override fun getItemCount(): Int {
-        return categories.count()
-    }
+    override fun getItemCount(): Int = categories.count()
 
 
     inner class Holder(itemView: View?) : RecyclerView.ViewHolder(itemView){
