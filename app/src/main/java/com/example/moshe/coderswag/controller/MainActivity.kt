@@ -1,10 +1,7 @@
 package com.example.moshe.coderswag.controller
 
-import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
-import android.widget.ArrayAdapter
 import com.example.moshe.coderswag.R
-import com.example.moshe.coderswag.adapters.CategoryAdapter
 import com.example.moshe.coderswag.adapters.CategoryRecycleAdapter
 import com.example.moshe.coderswag.services.DataService
 import kotlinx.android.synthetic.main.activity_main.*
