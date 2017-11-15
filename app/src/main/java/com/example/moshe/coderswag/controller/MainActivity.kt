@@ -12,7 +12,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : BaseActivity() {
 
-    lateinit var adapter: CategoryRecycleAdapter
+    private lateinit var adapter: CategoryRecycleAdapter
 
     override fun getLayout(): Int {
         return R.layout.activity_main
