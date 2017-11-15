@@ -15,7 +15,9 @@ class MainActivity : BaseActivity() {
     }
 
     override fun initView() {
-        adapter = CategoryRecycleAdapter(this, DataService.categories)
+        adapter = CategoryRecycleAdapter(this, DataService.categories){
+            category ->  println(category.title)
+        }
         categoryListView.adapter = adapter
         categoryListView.layoutManager = LinearLayoutManager(this)
         categoryListView.setHasFixedSize(true)
