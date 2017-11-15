@@ -15,7 +15,7 @@ object DataService {
     private val hats = listOf(
             Product("Devslopes Graphic Beanie", "$18", "hat1"),
             Product("Devslopes Hat Black", "$20", "hat2"),
-            Product("Devslopes Hat White", "$18", "hat0"),
+            Product("Devslopes Hat White", "$18", "hat3"),
             Product("Devslopes Hat Snapback", "$22", "hat4")
     )
 
